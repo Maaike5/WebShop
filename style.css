@@ -14,29 +14,67 @@ header{
     height: 8rem;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
-    padding-left: 4rem;
     font-style: inherit;
     color: #fff;
     font-size: 2rem;
+    padding: 1rem;
 }
-
+.logo{
+    height: 7rem;
+    justify-content: center;
+}
 
 
 section{
-    background-color: aqua;
-    height: 30rem;
-    color: #fff;
+    background-color: white;
+    height: 25rem;
+    color: #a492b2;
+    padding: 2rem;
+}
+  .eyecatcher > .slogan{
+    font-size: 10rem;
+    padding: 1rem;
+}
+.eyecatcher > button{
+  background-color: white; 
+  border: solid;
+  border-radius: 10rem;
+  color: #a492b2;
+  padding: 2rem 4rem;
+  text-align: center;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+ .eyecatcher >.box{
+  margin: -24rem;
+  margin-left: 150rem;
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30rem;
+  padding: 3rem;
+}
+.jbl{ 
+  margin-top: -51rem;
+  width: 34rem;
+  margin-left: 110rem;
+  display: flex;
+  justify-content: center;
 }
 
 article{
-    background-color: chartreuse;
+    background-color: white;
     height: 50rem;
-    color: #fff;
+    color: #a492b2;
+    padding:2rem;
+    display: flex;
 }
 
 footer{
-    background-color: #3b0f57;
-    height: 8rem;
-    color: #fff;
+    background-color: #a492b2;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    color: white;
+
 }
